@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    height: 700px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.content {
+    /* center */
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+    
+    height: 100%;
+
+    background-color: teal;
+}
+.content .title{
+    height: 2em;
+    width: 10em;
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+
+    color: greenyellow;
+    background-color: black;
+
+    padding-top: 0.5em;
+}
